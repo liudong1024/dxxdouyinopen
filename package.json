@@ -1,6 +1,6 @@
 {
   "name": "dxxdouyinopen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "抖音开放平台SDK",
   "main": "src/index.js",
   "scripts": {
