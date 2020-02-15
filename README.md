@@ -6,19 +6,21 @@
 
 目前只用到部分接口
 
+
 ## QuickStart
 
 ```bash
-$ npm i
+$ npm i -S dxxdouyinopen
 ```
 
 ##　使用方法：
 #### 引入类，实例化类，调用接口
 
 ```
-const dxxopen_i = new dxxopen(
-        { open_id: '',
-          access_token: '' });
+
+const dxxClass = require('dxxdouyinopen');
+
+const dxxopen_i = new dxxClass({ open_id: '',access_token: ''});
 
 const res = await dxxopen_i.videoListGet();
 ```
