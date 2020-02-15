@@ -81,7 +81,6 @@ class douyinOpen {
     const count = options.count || 20;
     const cursor = options.cursor || 0;
 
-
     try {
       const res = await this.douyinAXIOS.get(
         this.root.fansListGet, {
@@ -232,9 +231,9 @@ class douyinOpen {
 
   async test() {
     const res = await this.oauthUserinfoGet({
-      open_id: '749501f6-af7a-4a81-abe9-aef2a38b4795',
-      access_token: 'act.97116021121cecc6ba6c72707aa79ddbIzeSAT8mi5LdD8h0DIWbyL4piBTA',
-      item_ids: [ '@9VwHg6OUDcRjN2LzdNw1Qc7802ztOvGLPJVwrQyvJ1YWavT160zdRmYqig357zEBMJI/429f1m2/WmxYRZWjsg==' ],
+      open_id: '',
+      access_token: '',
+      item_ids: [ '' ],
     });
     console.log(res);
   }
